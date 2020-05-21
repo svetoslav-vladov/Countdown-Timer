@@ -78,6 +78,7 @@ nav span:hover {
 #minutes,
 #seconds {
   height: 150px;
+  min-width: 165px;
   background-color: #fff;
   opacity: 0.8;
   border-radius: 5px;
@@ -142,5 +143,13 @@ nav span:hover {
     font-size: 0.9rem;
     margin: 0;
     padding: 0;
+  }
+
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    height: 130px;
+    min-width: 130px;
   }
 }
